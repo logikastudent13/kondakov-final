@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    font-family: sans-serif,roboto;
+    background-image: url(https://gen.jut.su/chakranature/background/anime/kuroko-no-basuke.dark.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+main{
+    border-radius: 30px;
+    padding:20px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+
+h1{
+    color:#cdcdd3;
+}
+
+.seasons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.episodes{
+    display:flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.episodes a{
+    text-decoration: none;
+    background-color: #cdcdd3;
+    padding: 10px;
+    border-radius: 10px;
+    color:black;
+}
+
+h2{
+    color:#cdcdd3;
+}
+.watch {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
